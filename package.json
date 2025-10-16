@@ -1,11 +1,11 @@
 {
   "name": "backend-stage-0",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Cat Facts profile information API",
+  "main": "server.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
-    "prod": "cross-env NODE_ENV=production nodemon ./src/server.js"
+    "start": "cross-env NODE_ENV=production nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "",
